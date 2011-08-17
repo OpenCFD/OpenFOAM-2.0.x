@@ -10,7 +10,7 @@
 * OpenFOAM is now released by the OpenFOAM Foundation
   On the 8th of August 2011 the copyright of OpenFOAM was transferred from and
   by OpenCFD Ltd. to the newly formed OpenFOAM Foundation.  The new location for
-  the OpenFOAM-2.0.x repository is http://github.com/OpenFOAM/OpenFOAM-2.0.x
+  the OpenFOAM-2.0.x repository is [[http://github.com/OpenFOAM/OpenFOAM-2.0.x]]
 
 * Download and installation instructions
   + To install from the OpenFOAM Foundation Git repository, see
