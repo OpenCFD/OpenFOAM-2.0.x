@@ -1,6 +1,0 @@
-.SUFFIXES: .l
-
-ltoo = flex -o$*.c $$SOURCE ; $(cc) $(cFLAGS) -c $*.c -o $@
-
-.l.dep:
-	$(MAKE_DEP)

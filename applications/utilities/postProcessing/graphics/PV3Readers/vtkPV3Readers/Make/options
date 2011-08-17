@@ -1,7 +1,0 @@
-PARAVIEW_INC = $(ParaView_DIR)/include/paraview-$(ParaView_MAJOR)
-
-EXE_INC = \
-    -I$(PARAVIEW_INC)
-
-LIB_LIBS = \
-    $(GLIBS)

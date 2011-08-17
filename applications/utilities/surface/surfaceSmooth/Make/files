@@ -1,4 +1,0 @@
-
-surfaceSmooth.C
-
-EXE = $(FOAM_APPBIN)/surfaceSmooth
