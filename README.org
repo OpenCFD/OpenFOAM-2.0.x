@@ -17,7 +17,8 @@
     [[http://www.OpenFOAM.org/git.php]]
   + If you wish to upgrade your existing OpenFOAM-2.0.x repository to the new
     version from the OpenFOAM Foundation, in the file
-    =OpenFOAM-2.0.x/.git/config= change
+    - =OpenFOAM-2.0.x/.git/config=
+    - change
     - =url = git://github.com/OpenCFD/OpenFOAM-2.0.x.git=
     - to
     - =url = git://github.com/OpenFOAM/OpenFOAM-2.0.x.git=
