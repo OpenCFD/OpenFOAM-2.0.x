@@ -4,10 +4,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 lang="en" xml:lang="en">
 <head>
-<title>OpenFOAM README for version 2.0.0</title>
+<title>OpenFOAM README for version 2.0.x</title>
 <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="16th June 2011"/>
+<meta name="generated" content="15th August 2011"/>
 <meta name="author" content="OpenCFD Ltd."/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -81,113 +81,53 @@ lang="en" xml:lang="en">
 <body>
 <div id="content">
 
-<h1 class="title">OpenFOAM README for version 2.0.0</h1>
+<h1 class="title">OpenFOAM README for version 2.0.x</h1>
 
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1 About OpenFOAM </a></li>
-<li><a href="#sec-2">2 Copyright </a></li>
-<li><a href="#sec-3">3 Download and installation instructions </a></li>
-<li><a href="#sec-4">4 Release notes </a></li>
-<li><a href="#sec-5">5 Documentation </a></li>
-<li><a href="#sec-6">6 Support and development contracts </a></li>
-<li><a href="#sec-7">7 Reporting Bugs in OpenFOAM </a></li>
+<li><a href="#sec-1">1 OpenFOAM is now released by the OpenFOAM Foundation </a></li>
+<li><a href="#sec-2">2 Download and installation instructions </a></li>
 </ul>
 </div>
 </div>
 
 <div id="outline-container-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> About OpenFOAM </h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> OpenFOAM is now released by the OpenFOAM Foundation </h2>
 <div class="outline-text-2" id="text-1">
 
-<p>  OpenFOAM is a free, open source computational fluid dynamcis (CFD) software
-  package produced by a commercial company, OpenCFD Ltd. It has a large user
-  base across most areas of engineering and science, from both commercial and
-  academic organisations. OpenFOAM has an extensive range of features to solve
-  anything from complex fluid flows involving chemical reactions, turbulence and
-  heat transfer, to solid dynamics and electromagnetics.
+<p>  On the 8th of August 2011 the copyright of OpenFOAM was transferred from and
+  by OpenCFD Ltd. to the newly formed OpenFOAM Foundation.  The new location for
+  the OpenFOAM-2.0.x repository is <a href="http://github.com/OpenFOAM/OpenFOAM-2.0.x">http://github.com/OpenFOAM/OpenFOAM-2.0.x</a>
 </p>
 </div>
 
 </div>
 
 <div id="outline-container-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> Copyright </h2>
+<h2 id="sec-2"><span class="section-number-2">2</span> Download and installation instructions </h2>
 <div class="outline-text-2" id="text-2">
 
-<p>  OpenFOAM is free software: you can redistribute it and/or modify it under the
-  terms of the GNU General Public License as published by the Free Software
-  Foundation, either version 3 of the License, or (at your option) any later
-  version.  See the file <code>COPYING</code> in this directory or
-  <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>, for a description of the GNU General Public
-  License terms under which you can copy the files.
-</p>
-</div>
-
-</div>
-
-<div id="outline-container-3" class="outline-2">
-<h2 id="sec-3"><span class="section-number-2">3</span> Download and installation instructions </h2>
-<div class="outline-text-2" id="text-3">
-
 <ul>
-<li>To install the Ubuntu/Debian (.deb) pack, see
-    <a href="http://www.OpenFOAM.com/download/ubuntu.php">http://www.OpenFOAM.com/download/ubuntu.php</a>
+<li>To install from the OpenFOAM Foundation Git repository, see
+    <a href="http://www.OpenFOAM.org/git.php">http://www.OpenFOAM.org/git.php</a>
 </li>
-<li>To install the source (.gtgz) pack, see
-    <a href="http://www.OpenFOAM.com/download/source.php">http://www.OpenFOAM.com/download/source.php</a>
-</li>
-<li>To install from the Git repository, see
-    <a href="http://www.OpenFOAM.com/download/git.php">http://www.OpenFOAM.com/download/git.php</a>
+<li>If you wish to upgrade your existing OpenFOAM-2.0.x repository to the new
+    version from the OpenFOAM Foundation, in the file
+    <code>OpenFOAM-2.0.x/.git/config</code> change <br/>
+    <code>url = git://github.com/OpenCFD/OpenFOAM-2.0.x.git</code> <br/>
+    to <br/>
+    <code>url = git://github.com/OpenFOAM/OpenFOAM-2.0.x.git</code> <br/>
+    and then <br/>
+    <code>git pull</code>
 </li>
 </ul>
 
-
 </div>
-
-</div>
-
-<div id="outline-container-4" class="outline-2">
-<h2 id="sec-4"><span class="section-number-2">4</span> Release notes </h2>
-<div class="outline-text-2" id="text-4">
-
-<p>  <a href="http://www.OpenFOAM.com/version2.0.0">http://www.OpenFOAM.com/version2.0.0</a>
-</p>
-</div>
-
-</div>
-
-<div id="outline-container-5" class="outline-2">
-<h2 id="sec-5"><span class="section-number-2">5</span> Documentation </h2>
-<div class="outline-text-2" id="text-5">
-
-<p>  <a href="http://www.OpenFOAM.com/docs">http://www.OpenFOAM.com/docs</a>
-</p>
-</div>
-
-</div>
-
-<div id="outline-container-6" class="outline-2">
-<h2 id="sec-6"><span class="section-number-2">6</span> Support and development contracts </h2>
-<div class="outline-text-2" id="text-6">
-
-<p>  <a href="http://www.OpenFOAM.com/support">http://www.OpenFOAM.com/support</a>
-</p>
-</div>
-
-</div>
-
-<div id="outline-container-7" class="outline-2">
-<h2 id="sec-7"><span class="section-number-2">7</span> Reporting Bugs in OpenFOAM </h2>
-<div class="outline-text-2" id="text-7">
-
-<p>  <a href="http://www.OpenFOAM.com/bugs">http://www.OpenFOAM.com/bugs</a>
-</p></div>
 </div>
 <div id="postamble">
-<p class="date">Date: 16th June 2011</p>
+<p class="date">Date: 15th August 2011</p>
 <p class="creator">Org version 7.5 with Emacs version 23</p>
 <a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
 </div>
